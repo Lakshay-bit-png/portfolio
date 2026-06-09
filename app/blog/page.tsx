@@ -26,7 +26,6 @@ export default function BlogIndex() {
       <header className="page-head">
         <p className="prompt">ls ./blog</p>
         <h1>Blog</h1>
-        <p>Notes on backend, infra, RAG, and things I'm building.</p>
       </header>
 
       {posts.length === 0 ? (
