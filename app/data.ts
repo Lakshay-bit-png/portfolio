@@ -6,8 +6,8 @@ export const profile = {
   email: "lakshaygargd@gmail.com",
   links: {
     linkedin: "https://www.linkedin.com/in/lakshay-garg-93995627a/",
-    github: "https://github.com/",
-    leetcode: "https://leetcode.com/",
+    github: "https://github.com/Lakshay-bit-png",
+    leetcode: "https://leetcode.com/u/LakshayGarg/",
   },
 };
 
