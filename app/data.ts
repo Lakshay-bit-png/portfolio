@@ -56,16 +56,6 @@ export const experience: Experience[] = [
     ],
   },
   {
-    company: "Sportaye",
-    role: "Backend Developer",
-    period: "May 2025 – Jun 2025",
-    points: [
-      "Built a real-time sports live-scoring backend with Redis, MongoDB, and Socket.io for instant updates.",
-      "Optimized data pipelines for low-latency, accurate score processing.",
-      "Deployed and maintained on AWS EC2 with high availability and scalability.",
-    ],
-  },
-  {
     company: "Chatwise",
     role: "Backend Developer",
     period: "Aug 2024 – May 2025",
@@ -87,6 +77,16 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+  {
+    name: "Sportaye — Live Sports Scoring",
+    blurb: "A real-time sports live-scoring backend.",
+    points: [
+      "Built a real-time live-scoring backend with Redis, MongoDB, and Socket.io for instant updates.",
+      "Optimized data pipelines for low-latency, accurate score processing.",
+      "Deployed and maintained on AWS EC2 with high availability and scalability.",
+    ],
+    tags: ["Redis", "MongoDB", "Socket.io", "AWS"],
+  },
   {
     name: "Finance Education Platform",
     blurb: "tradingtiers.com — a platform to learn trading and markets.",
