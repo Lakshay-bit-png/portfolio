@@ -88,16 +88,6 @@ export const projects: Project[] = [
     tags: ["Redis", "MongoDB", "Socket.io", "AWS"],
   },
   {
-    name: "Finance Education Platform",
-    blurb: "tradingtiers.com — a platform to learn trading and markets.",
-    points: [
-      "Built a robust backend with the team, reducing response time by 20% using WebSockets.",
-      "Designed a responsive, interactive frontend with HTML5, CSS3, and JavaScript.",
-    ],
-    link: "https://tradingtiers.com",
-    tags: ["WebSockets", "Node.js", "HTML5/CSS3"],
-  },
-  {
     name: "File Cloud",
     blurb: "Efficient file transfer across devices over Wi-Fi.",
     points: [
