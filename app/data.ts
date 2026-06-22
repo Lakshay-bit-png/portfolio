@@ -66,6 +66,16 @@ export const experience: Experience[] = [
       "Built and maintained backend APIs with Node.js and MongoDB; job scheduling via Redis BullQueue for notifications, events, and feeds.",
     ],
   },
+  {
+    company: "Mathsloyal",
+    role: "Tech Intern",
+    period: "Sep 2023 – Aug 2024",
+    points: [
+      "Developed a real-time WebRTC-based video calling system enabling students to connect with tutors for live doubt-solving, handling signaling and low-latency peer connections.",
+      "Improved the platform's AI-powered doubt-solving — iterating on the model/prompts to boost the accuracy and quality of answers to student questions.",
+      "Handled deployment on DigitalOcean — setting up and managing droplets to run and serve the application.",
+    ],
+  },
 ];
 
 export type Project = {
